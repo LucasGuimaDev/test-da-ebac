@@ -8,7 +8,7 @@ gasolina_df = pd.read_csv(arquivo)
 gasolina_df.head(50)
 
 sns.set(style="whitegrid")  
-sns.lineplot(x='dia', y='venda', data=gasolina_df, color='red')
+sns.lineplot(x='dia', y='venda', data=gasolina_df, color='green')
 
 
 plt.title('Gráfico de valor da gasolina')
